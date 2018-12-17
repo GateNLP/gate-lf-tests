@@ -1,0 +1,601 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">created from String</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">nSentTo</Name>
+  <Value className="java.lang.Integer">1369</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">nSentFrom</Name>
+  <Value className="java.lang.Integer">1369</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Different<Node id="9"/> <Node id="10"/>...<Node id="13"/> <Node id="14"/>one<Node id="17"/> <Node id="18"/>was<Node id="21"/> <Node id="22"/>in<Node id="24"/> <Node id="25"/>the<Node id="28"/> <Node id="29"/>jungle<Node id="35"/>,<Node id="36"/> <Node id="37"/>the<Node id="40"/> <Node id="41"/>other<Node id="46"/> <Node id="47"/>is<Node id="49"/> <Node id="50"/>in<Node id="52"/> <Node id="53"/>the<Node id="56"/> <Node id="57"/>high<Node id="61"/> <Node id="62"/>mountain<Node id="70"/> <Node id="71"/>deserts<Node id="78"/>.<Node id="79"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Key">
+<Annotation Id="0" Type="Token" StartNode="0" EndNode="9">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">17</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">root</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">Different</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Degree</Name>
+  <Value className="java.lang.String">Pos</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">different</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">ADJ</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">JJ</Value>
+</Feature>
+</Annotation>
+<Annotation Id="1" Type="Token" StartNode="10" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">...</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">PUNCT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">punct</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">...</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">,</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Token" StartNode="14" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">6</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">nsubj</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">one</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">NumType</Name>
+  <Value className="java.lang.String">Card</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">one</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">NUM</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">CD</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Token" StartNode="18" EndNode="21">
+<Feature>
+  <Name className="java.lang.String">Tense</Name>
+  <Value className="java.lang.String">Past</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">6</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">cop</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Mood</Name>
+  <Value className="java.lang.String">Ind</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">was</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Number</Name>
+  <Value className="java.lang.String">Sing</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">be</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">AUX</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">VerbForm</Name>
+  <Value className="java.lang.String">Fin</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">VBD</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Person</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Token" StartNode="22" EndNode="24">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">6</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">in</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">ADP</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">case</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">in</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">IN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Token" StartNode="25" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">6</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">det</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">the</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">the</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">DET</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">DT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Definite</Name>
+  <Value className="java.lang.String">Def</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">PronType</Name>
+  <Value className="java.lang.String">Art</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Token" StartNode="29" EndNode="35">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">parataxis</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">jungle</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Number</Name>
+  <Value className="java.lang.String">Sing</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">jungle</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">NOUN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Token" StartNode="35" EndNode="36">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">6</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">,</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">PUNCT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">punct</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">,</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">,</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Token" StartNode="37" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">9</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">det</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">the</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">the</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">DET</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">DT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Definite</Name>
+  <Value className="java.lang.String">Def</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">PronType</Name>
+  <Value className="java.lang.String">Art</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Token" StartNode="41" EndNode="46">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">15</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">nsubj</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">other</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Degree</Name>
+  <Value className="java.lang.String">Pos</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">other</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">ADJ</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">JJ</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Token" StartNode="47" EndNode="49">
+<Feature>
+  <Name className="java.lang.String">Tense</Name>
+  <Value className="java.lang.String">Pres</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">15</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">cop</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Mood</Name>
+  <Value className="java.lang.String">Ind</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">is</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Number</Name>
+  <Value className="java.lang.String">Sing</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">be</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">AUX</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">VerbForm</Name>
+  <Value className="java.lang.String">Fin</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">VBZ</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Person</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Token" StartNode="50" EndNode="52">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">15</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">in</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">ADP</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">case</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">in</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">IN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Token" StartNode="53" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">15</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">det</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">the</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">the</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">DET</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">DT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Definite</Name>
+  <Value className="java.lang.String">Def</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">PronType</Name>
+  <Value className="java.lang.String">Art</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Token" StartNode="57" EndNode="61">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">15</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">amod</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">high</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Degree</Name>
+  <Value className="java.lang.String">Pos</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">high</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">ADJ</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">JJ</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Token" StartNode="62" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">15</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">compound</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">mountain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Number</Name>
+  <Value className="java.lang.String">Sing</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">mountain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">NOUN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Token" StartNode="71" EndNode="78">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">6</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">parataxis</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">deserts</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">Number</Name>
+  <Value className="java.lang.String">Plur</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">desert</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">NOUN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NNS</Value>
+</Feature>
+</Annotation>
+<Annotation Id="16" Type="Token" StartNode="78" EndNode="79">
+<Feature>
+  <Name className="java.lang.String">head</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lemma</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">upos</Name>
+  <Value className="java.lang.String">PUNCT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deprel</Name>
+  <Value className="java.lang.String">punct</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="Sentence" StartNode="0" EndNode="79">
+<Feature>
+  <Name className="java.lang.String">gate.conversion.nLineTo</Name>
+  <Value className="java.lang.Integer">22823</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.conversion.nLineFrom</Name>
+  <Value className="java.lang.Integer">22806</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.conversion.sentComments</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.1'?><gate.corpora.ObjectWrapper><value class="list"><string># sent_id = answers-20111107115952AAqfsHV_ans-0014</string><string># text = Different...one was in the jungle, the other is in the high mountain deserts.</string></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.conversion.nSent</Name>
+  <Value className="java.lang.Integer">1369</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.conversion.sentId</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>
