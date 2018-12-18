@@ -1,0 +1,27 @@
+<LF>
+
+<NGRAM>
+<NUMBER>1</NUMBER>
+<TYPE>Token</TYPE>
+<FEATURE>string</FEATURE>
+<EMBEDDINGS>
+  <ID>tokenstring</ID>
+  <TRAIN>yes</TRAIN>
+  <DIMS>100</DIMS>
+  <MINFREQ>3</MINFREQ>
+</EMBEDDINGS>
+</NGRAM>
+
+<NGRAM>
+<NUMBER>1</NUMBER>
+<TYPE>Token</TYPE>
+<FEATURE>category</FEATURE>
+<EMBEDDINGS>
+  <ID>tokenpos</ID>
+  <TRAIN>yes</TRAIN>
+  <DIMS>10</DIMS>
+  <MINFREQ>1</MINFREQ>
+</EMBEDDINGS>
+</NGRAM>
+
+</LF>
