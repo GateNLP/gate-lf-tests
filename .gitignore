@@ -18,8 +18,8 @@ logs/
 # Virtual machine crash logs
 hs_err_pid*
 
-FileJsonPyTorch.model.module.pytorch
-FileJsonPyTorch.model.wrapper.pickle
+*.module.pytorch
+*.wrapper.pickle
 FileJsonPyTorch
 crvd.converted.train.json
 crvd.converted.val.json
