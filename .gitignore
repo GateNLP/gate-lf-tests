@@ -21,7 +21,10 @@ hs_err_pid*
 *.module.pytorch
 *.wrapper.pickle
 *.dsindex
+*.log
 FileJsonPyTorch
+FileJsonKeras
+FileJsonKeras.model*
 crvd.converted.train.json
 crvd.converted.val.json
 crvd.data.json
