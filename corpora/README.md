@@ -19,3 +19,19 @@
 
 * Original download page https://github.com/UniversalDependencies/UD_English-EWT
 * GATE version http://downloads.gate.ac.uk/universal-dependencies-gate/UD_English.zip
+
+## Ionosphere Dataset
+
+* Original dataset: https://archive.ics.uci.edu/ml/datasets/ionosphere
+* Purpose: classification (2 classes) from numeric-only features
+* Converted to GATE format by creating fake "word" texts, one per line and instance from the dataset
+  then creating one "Mention" annotation for each word and setting the features of that annotation
+  to the features of the instance. Target feature name is "class"
+* Train/test split: 30 instances removed from training and used for test
+
+## Abalone Dataset
+
+* Original dataset: https://archive.ics.uci.edu/ml/datasets/abalone
+* Purpose: regression (integer values only) from numeric features plus one categorical feature.
+* Converted in the same way as Ionosphere, target feature name is "target"
+* Train/test split: 400 instances removed from training and used for test
