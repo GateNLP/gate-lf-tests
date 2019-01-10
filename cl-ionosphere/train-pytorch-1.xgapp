@@ -105,12 +105,12 @@
                 </entry>
                 <entry>
                   <string>trainingAlgorithm</string>
-                  <gate.plugin.learningframework.engines.AlgorithmClassification>LibSVM_CL_MR</gate.plugin.learningframework.engines.AlgorithmClassification>
+                  <gate.plugin.learningframework.engines.AlgorithmClassification>PytorchWrapper_CL_DR</gate.plugin.learningframework.engines.AlgorithmClassification>
                 </entry>
                 <entry>
                   <string>dataDirectory</string>
                   <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$model-libsvm-1/</urlString>
+                    <urlString>$relpath$model-pytorch-1/</urlString>
                   </gate.util.persistence.PersistenceManager-URLHolder>
                 </entry>
                 <entry>
@@ -119,7 +119,7 @@
                 </entry>
                 <entry>
                   <string>algorithmParameters</string>
-                  <string>-c 1000 -g 0.02</string>
+                  <string></string>
                 </entry>
                 <entry>
                   <string>featureSpecURL</string>
@@ -160,7 +160,7 @@
       <collectionType>java.util.ArrayList</collectionType>
     </prList>
     <resourceType>gate.creole.ConditionalSerialAnalyserController</resourceType>
-    <resourceName>train-libsvm-1</resourceName>
+    <resourceName>train-pytorch-1</resourceName>
     <initParams class="gate.util.persistence.MapPersistence">
       <mapType>gate.util.SimpleFeatureMapImpl</mapType>
       <localMap/>
