@@ -11779,7 +11779,7 @@
                 </entry>
                 <entry>
                   <string>trainingAlgorithm</string>
-                  <gate.plugin.learningframework.engines.AlgorithmClassification>PytorchWrapper_CL_DR</gate.plugin.learningframework.engines.AlgorithmClassification>
+                  <gate.plugin.learningframework.engines.AlgorithmClassification>KerasWrapper_CL_DR</gate.plugin.learningframework.engines.AlgorithmClassification>
                 </entry>
                 <entry>
                   <string>featureSpecURL</string>
@@ -11794,7 +11794,7 @@
                 <entry>
                   <string>dataDirectory</string>
                   <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$model-pytorch1-s/</urlString>
+                    <urlString>$relpath$model-keras1-s/</urlString>
                   </gate.util.persistence.PersistenceManager-URLHolder>
                 </entry>
                 <entry>
@@ -11831,7 +11831,7 @@
       <collectionType>java.util.ArrayList</collectionType>
     </prList>
     <resourceType>at.ofai.gate.modularpipelines.ParametrizedCorpusController</resourceType>
-    <resourceName>train-pytorch1-s</resourceName>
+    <resourceName>train-keras1-s</resourceName>
     <initParams class="gate.util.persistence.MapPersistence">
       <mapType>gate.util.SimpleFeatureMapImpl</mapType>
       <localMap/>
