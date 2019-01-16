@@ -914,7 +914,7 @@
                 <entry>
                   <string>dataDirectory</string>
                   <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$model-pytorch-singlefeat1/</urlString>
+                    <urlString>$relpath$model-keras-singlefeat1/</urlString>
                   </gate.util.persistence.PersistenceManager-URLHolder>
                 </entry>
                 <entry>
@@ -1012,7 +1012,7 @@
       <collectionType>java.util.ArrayList</collectionType>
     </prList>
     <resourceType>gate.creole.ConditionalSerialAnalyserController</resourceType>
-    <resourceName>apply-pytorch-1</resourceName>
+    <resourceName>apply-keras-1</resourceName>
     <initParams class="gate.util.persistence.MapPersistence">
       <mapType>gate.util.SimpleFeatureMapImpl</mapType>
       <localMap/>
