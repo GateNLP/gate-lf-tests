@@ -4,3 +4,4 @@
 # getting updated to the newest version when training is run.
 
 find . -type d -name FileJsonPyTorch | xargs -n 1 rm -rf
+find . -type f -name '*.dsindex' | xargs -n 1 rm
