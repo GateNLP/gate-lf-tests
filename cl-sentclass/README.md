@@ -23,3 +23,6 @@ All the tests in this directory are based on the sentence classification corpus.
 * This is ordinary classification, no sequence, but both features are NGRAM, so
   treated like sequences
 
+## Notes
+
+* feats-multifeat2 and train-pytorch-multifeat2-l are to test if having numeric features works with classification

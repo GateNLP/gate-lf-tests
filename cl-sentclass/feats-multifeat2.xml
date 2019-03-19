@@ -8,7 +8,6 @@
   <ID>tokenstring</ID>
   <TRAIN>yes</TRAIN>
   <MINFREQ>1</MINFREQ>
-  <FILE>glove6B100d-filtered.txt.gz</FILE>
 </EMBEDDINGS>
 </NGRAM>
 
@@ -23,5 +22,11 @@
   <MINFREQ>1</MINFREQ>
 </EMBEDDINGS>
 </NGRAM>
+
+<ATTRIBUTE>
+<TYPE>Sentence</TYPE>
+<FEATURE>length</FEATURE>
+<DATATYPE>numeric</DATATYPE>
+</ATTRIBUTE>
 
 </LF>
