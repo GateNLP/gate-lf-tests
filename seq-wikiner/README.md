@@ -12,6 +12,11 @@ All the tests in this corpus are based on the WikiNER corpus
 * Does not actually produce a usable model at the moment, but shows that 
   the full lifecycle works
 
+## Pytorch, test string feature plus one numeric feature
+
+* Train: train-pytorch-multifeat2.xgapp
+* Model directory: model-pytorch-multifeat2
+
 
 ## Keras, just the string feature
 
