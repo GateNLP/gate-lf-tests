@@ -1,0 +1,27 @@
+<LF>
+<!-- testing the use of numerical features -->
+<ATTRIBUTE>
+<TYPE>Token</TYPE>
+<FEATURE>string</FEATURE>
+<DATATYPE>nominal</DATATYPE>
+</ATTRIBUTE>
+
+<ATTRIBUTE>
+<TYPE>Token</TYPE>
+<FEATURE>length</FEATURE>
+<DATATYPE>numeric</DATATYPE>
+</ATTRIBUTE>
+
+<NGRAM>
+<NUMBER>1</NUMBER>
+<TYPE>Token</TYPE>
+<FEATURE>string</FEATURE>
+<EMBEDDINGS>
+  <ID>tokenstring</ID>
+  <TRAIN>yes</TRAIN>
+  <DIMS>100</DIMS>
+  <MINFREQ>3</MINFREQ>
+</EMBEDDINGS>
+</NGRAM>
+
+</LF>

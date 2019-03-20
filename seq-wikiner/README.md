@@ -17,6 +17,11 @@ All the tests in this corpus are based on the WikiNER corpus
 * Train: train-pytorch-multifeat2.xgapp
 * Model directory: model-pytorch-multifeat2
 
+## Pytorch, test what happens if we include NGRAM
+
+* multifeat3 includes an NGRAM feature. This should always just have one 1-gram
+  but the feature will still get represented as a list so we can test how the backend deals with this.
+
 
 ## Keras, just the string feature
 
