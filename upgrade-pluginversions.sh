@@ -31,4 +31,6 @@ find . -name '*.gapp' -o -name '*.xgapp' | while read f
 do
   echo "Updating file $f"
   java -classpath "$gatecp" gate.util.persistence.UpgradeXGAPP "$f" "$tsvfile"
+  echo converting back to unix format
+  echo dos2unix $f
 done
