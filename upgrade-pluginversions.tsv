@@ -1,4 +1,7 @@
-# to find existing plugin versions in all xgapp files:
+# NOTE: the upgrade utility currently sadly cannot upgrade from all versions and it will upgrade 
+# plugins not mentioned in here depending on the version of GATE it runs under! 
+# So in order to do a controlled upgrade, we need to mention ALL plugin version that get used anywhere in here!!
+# To find existing plugin versions in all xgapp files:
 # xmlstarlet sel -t -m '//urlList/localList/gate.creole.Plugin-Maven' -v 'concat("creole://", group, ";", artifact, ";", version, "/")' --nl `find . -name \*.xgapp` | sort -u
 creole://uk.ac.gate.plugins;modularpipelines;2.2/	UPGRADE	uk.ac.gate.plugins	modularpipelines	2.2
 creole://uk.ac.gate.plugins;annie;8.5/	UPGRADE	uk.ac.gate.plugins	annie	8.5

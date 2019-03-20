@@ -25,8 +25,8 @@ else
     exit 1
   fi
 fi
-
-
+echo using classpath $gatecp
+exit
 find . -name '*.gapp' -o -name '*.xgapp' | while read f
 do
   echo "Updating file $f"
