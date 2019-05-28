@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Note: since 2019-03-21, the upgrade utility only needs those
+# plugins mentioned in the upgrade file which actually need to upgrade.
+# (previously default upgrades would get applied as well)
+
 tsvfile="$1"
 if [[ "x$tsvfile" == "x" ]]
 then
