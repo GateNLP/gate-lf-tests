@@ -4,6 +4,9 @@
 # plugins mentioned in the upgrade file which actually need to upgrade.
 # (previously default upgrades would get applied as well)
 
+# !! IMPORTANT: the input plugin coordinates must end with a slahs!
+# NOTE: the version can be a "*"
+
 tsvfile="$1"
 if [[ "x$tsvfile" == "x" ]]
 then
@@ -34,5 +37,5 @@ fi
 find . -name '*.gapp' -o -name '*.xgapp' | while read f
 do
   echo "Updating file $f"
-  java -classpath "$gatecp" gate.util.persistence.UpgradeXGAPP "$f" "$tsvfile"
+  java -classpath "$gatecp:${GATE_HOME}/bin" gate.util.persistence.UpgradeXGAPP "$f" "$tsvfile"
 done
